@@ -153,12 +153,13 @@ section ul {
 	list-style-type: none;
 	text-align: center;
 	display: grid;
-	grid-column-gap: 0;
-	grid-template-columns: 33.333% 33.333% 33.333%;
+	grid-column-gap: 5%;
+	grid-template-columns: 30% 30% 30%;
 }
 
 section ul li { 
 	margin-bottom: 60px; 
+	width: 100%;
 }
 
 section ul.events li { 

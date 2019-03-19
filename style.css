@@ -33,28 +33,6 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	outline: none;
 	}
 
-.clear { 
-	clear: both;
-}
-	
-.clearfix:after { 
-	clear: both; 
-	content: '.'; 
-	display: block;
-	height: 0;
-	visibility: hidden;
-	}
-	
-.clearfix { 
-	display: inline-block;
-}
-
-* html.clearfix { height: 1% }
-
-.clearfix { 
-	display: block;
-}
-
 * {
 	-moz-box-sizing: border-box; 
 	-webkit-box-sizing: border-box; 
@@ -174,17 +152,17 @@ h4 {
 section ul {
 	list-style-type: none;
 	text-align: center;
+	display: grid;
+	grid-column-gap: 0;
+	grid-template-columns: 33.333% 33.333% 33.333%;
 }
 
 section ul li { 
 	margin-bottom: 60px; 
-	float: left;
-	width: 33.33333334%;
 }
 
 section ul.events li { 
 	margin-bottom: 30px; 
-	float: none;
 	width: 100%;
 }
 

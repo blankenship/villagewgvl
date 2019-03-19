@@ -237,24 +237,17 @@ h2 a {
 	padding-bottom: 0; 
 }
 
-figure img {
-	float: none;
-	outline: 0 none;
-	width: 100%;
-}
-
-figure img:nth-child(n+4) { display: none; }
-
 h3 {
 	font: 300 40px/40px "proxima-nova-sc-osf-ext-cond", sans-serif;
 	margin: 30px auto;
 }
 
-section ul li,
-section ul.events li { 
-	margin: 0 auto 60px; 
-	float: none;
-	width: 90%;
+section ul {
+	display: block;
+}
+
+section ul li { 
+	margin-bottom: 40px; 
 }
 
 section ul li h3 { 

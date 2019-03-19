@@ -116,15 +116,16 @@ h2 a:nth-child(4) 	{ border-bottom: 2px solid #6061a9; color: #6061a9; }
 h2 a:nth-child(5) 	{ border-bottom: 2px solid #97cc68; color: #97cc68; }
 h2 a:hover 			{ border-bottom: 2px solid #fff; color: #fff; }
 
-figure { clear: both; }
-
-figure img {
-	float: left;
-	width: 33.333333334%;
+figure { 
+	display: grid;
+	grid-column-gap: 0;
+	grid-template-columns: 25% 25% 25% 25%;
 }
 
-figure img:nth-child(n+4) { width: 16.666666667%; }
-figure img:nth-child(n+10) { width: 33.333333334%; }
+figure img {
+	width: 100%
+}
+
 
 /* MEMBERS */
 

@@ -1,0 +1,299 @@
+/*   
+
+©2017 West Greenville Business Association.
+All Rights Reserved.
+
+The Village of West Greenville
+villagewgvl.com
+
+Our mission is to grow and support
+the creative business landscape in the
+Village of West Greenville by establishing
+the voice, brand, and sustainability 
+of our historic community.
+
+Blankenship Office
+blankenshipoffice.com
+Version: 1.0
+March 2017
+
+*/
+
+/* RESETS */
+
+*, html, div, span, object, iframe,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li, img, figure, figcaption,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	}
+
+.clear { 
+	clear: both;
+}
+	
+.clearfix:after { 
+	clear: both; 
+	content: '.'; 
+	display: block;
+	height: 0;
+	visibility: hidden;
+	}
+	
+.clearfix { 
+	display: inline-block;
+}
+
+* html.clearfix { height: 1% }
+
+.clearfix { 
+	display: block;
+}
+
+* {
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased; 
+	font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	}
+
+.hidden { display: none; }
+
+body {
+	background: #27235d;
+	font: 400 24px/30px "proxima-nova", sans-serif;
+}
+
+a,
+a:visited,
+a:hover { text-decoration: none; }
+
+.centered {
+	margin: 0 auto;
+	text-align: center;
+}
+
+section {
+	padding: 30px 0 60px;
+}
+
+#press section {
+	padding: 0 0 60px;
+}
+
+/* HELLO */
+
+h1 { 
+	background: url('@images/villageofwestgreenville.logo.png') top center no-repeat;
+	background-size: 100% auto;
+	display: block;
+	height: 150px;
+	margin: 0 auto 30px;
+	text-indent: -1000000px;
+	width: 235px;
+}
+
+.social { margin: 60px auto; }
+
+.social a {
+	color: #fff;
+	font-size: 150%;
+	margin: 0 15px;
+}
+
+.social a:nth-child(1) 	{ color: #97cc68; }
+.social a:nth-child(2) 	{ color: #2bbcee; }
+.social a:nth-child(3) 	{ color: #f7b84e; }
+.social a:hover 		{ color: #fff; }
+
+h2 {
+	color: #fff; 
+	font-weight: 300;
+	font: 400 30px/38px "proxima-nova", sans-serif;
+	margin: 60px auto 45px;
+	text-align: center;
+	width: 60%;
+}
+
+h2.small {
+	font: 400 20px/20px "proxima-nova", sans-serif;
+	margin: 0 auto 90px;
+}
+
+h2 a { 
+	padding-bottom: 1px; 
+}
+
+h2 a:nth-child(1) 	{ border-bottom: 2px solid #97cc68; color: #97cc68; }
+h2 a:nth-child(2) 	{ border-bottom: 2px solid #2bbcee; color: #2bbcee; }
+h2 a:nth-child(3) 	{ border-bottom: 2px solid #f7b84e; color: #f7b84e; }
+h2 a:nth-child(4) 	{ border-bottom: 2px solid #6061a9; color: #6061a9; }
+h2 a:nth-child(5) 	{ border-bottom: 2px solid #97cc68; color: #97cc68; }
+h2 a:hover 			{ border-bottom: 2px solid #fff; color: #fff; }
+
+figure { clear: both; }
+
+figure img {
+	float: left;
+	width: 33.333333334%;
+}
+
+figure img:nth-child(n+4) { width: 16.666666667%; }
+figure img:nth-child(n+10) { width: 33.333333334%; }
+
+/* MEMBERS */
+
+h3 {
+	color: #6061a9;
+	font: 300 60px/60px "proxima-nova-sc-osf-ext-cond", sans-serif;
+	letter-spacing: 3px;
+	margin: 90px auto;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+i.fa-chevron-down { 
+	color: inherit; 
+	display: block;
+	font-size: 50%;
+	margin: 15px auto 0;
+	text-align: center;
+}
+
+h4 {
+	color: #fff;
+}
+
+section ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+section ul li { 
+	margin-bottom: 60px; 
+	float: left;
+	width: 33.33333334%;
+}
+
+section ul.events li { 
+	margin-bottom: 30px; 
+	float: none;
+	width: 100%;
+}
+
+section ul li h3 { 
+	color: #fff; 
+	font-weight: 400;
+	font-size: 18px;
+}
+
+#press section ul li h4 a { font-size: 100%; }
+
+section ul li p { 
+	color: #2dbbed;
+ 	font-size: 18px;
+ 	font-weight: bold;
+ 	line-height: 30px;
+}
+
+section ul li a {
+ 	color: #97cc68;
+  	font-size: 14px;
+}
+
+section#artists 	{ background: #09704c; }
+section#artists h3 	{ color: #97cc68; }
+
+section#services 	{ background: #0c567a; }
+section#services h3 { color: #2bbcee; }
+
+section#shops 		{ background: #ba5d08; }
+section#shops h3 	{ color: #f7b84e; }
+section#shops a 	{ color: #fff; }
+section#shops p 	{ color: #f7b84e; }
+
+section#food h3 	{ color: #6061a9; }
+section#food a 		{ color: #f7b84e; }
+
+/* OUTRO */
+
+footer { 
+	background: url('@images/villageofwestgreenville.neighborhood.png') bottom center no-repeat;
+	background-size: 100% auto;
+	margin: 0 auto;
+	min-height: 500px;
+	text-align: center;
+	padding: 30px 0;
+	}
+
+p#copyright {
+	color: #6061a9;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+/* SMALL SCREENS */
+
+@media (min-width: 100px) and (max-width: 800px) {
+
+.social { margin: 30px auto; }
+
+h2 {
+	font: 400 25px/32px "proxima-nova", sans-serif;
+	margin: 30px auto 60px;
+	width: 90%;
+}
+
+h2 a { 
+	padding-bottom: 0; 
+}
+
+figure img {
+	float: none;
+	outline: 0 none;
+	width: 100%;
+}
+
+figure img:nth-child(n+4) { display: none; }
+
+h3 {
+	font: 300 40px/40px "proxima-nova-sc-osf-ext-cond", sans-serif;
+	margin: 30px auto;
+}
+
+section ul li,
+section ul.events li { 
+	margin: 0 auto 60px; 
+	float: none;
+	width: 90%;
+}
+
+section ul li h3 { 
+	font-size: 20px;
+}
+
+section ul li a {
+  	font-size: 16px;
+}
+
+footer { 
+	min-height: 300px;
+	padding: 0;
+	}
+
+}
+
+/*
+
+Contact:
+Joshua Blankenship
+joshua@joshuablankenship.com
+
+*/

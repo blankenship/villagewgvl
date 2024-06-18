@@ -132,27 +132,29 @@ website: 	http://warm.design
 
 	footer {
 		background: #111;
-		color: #eee;
+		color: #fff;
 		display: grid;
 	    grid-template-columns: 50% 50%;
 	    margin-top: 2.5rem;
 	    padding: 2rem 20vw;
 	}
 
-.hidden { display: none; }
+	footer p { color: #fff; }
 
-.social { margin: 60px auto; }
+	.hidden { display: none; }
 
-.social a {
-	color: #fff;
-	font-size: 150%;
-	margin: 0 15px;
-}
+	.social { margin: 60px auto; }
 
-.social a:nth-child(1) 	{ color: #97cc68; }
-.social a:nth-child(2) 	{ color: #2bbcee; }
-.social a:nth-child(3) 	{ color: #f7b84e; }
-.social a:hover 		{ color: #fff; }
+	.social a {
+		color: #fff;
+		font-size: 150%;
+		margin: 0 15px;
+	}
+
+	.social a:nth-child(1) 	{ color: #97cc68; }
+	.social a:nth-child(2) 	{ color: #2bbcee; }
+	.social a:nth-child(3) 	{ color: #f7b84e; }
+	.social a:hover 		{ color: #fff; }
 
 
 /* Small Screens */

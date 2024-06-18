@@ -85,6 +85,11 @@ website: 	http://warm.design
 		padding: 0; 
 	}
 
+	section figure {
+		margin: 2.5rem auto;
+		width: 100%;
+	}
+	
 	div.ctas {
 		display: grid;
 	    grid-template-columns: 22% 22% 22% 22%;

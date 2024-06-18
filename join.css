@@ -148,9 +148,53 @@ website: 	http://warm.design
 	@media (min-width: 100px) and (max-width: 900px) {
 
 		body {
-			padding: 2vw 5vw;
+			padding: 0 5vw;
 		}
-		
+
+		button { margin-bottom: 1rem; }
+
+		h2 { 
+			font: 400 1.25rem/1.25rem "franklin-gothic-urw", sans-serif; 
+		}
+
+		h3 { 
+			font: 300 2rem/2rem "franklin-gothic-compressed", sans-serif; 
+		}
+
+		dl dt { 
+			font: 600 1.75rem/1.75rem "franklin-gothic-compressed", sans-serif; 
+			margin-bottom: 1.75rem;
+		}
+
+		dl dd { 
+			margin-bottom: 2rem;
+			padding-left: 0; }
+
+		a, a:visited { color: inherit; }
+
+		a:hover { color: #777; }
+
+		dl { margin: 1.65rem auto; }
+
+		ul li { 
+			margin: 0 0 1.25rem 2.5rem; 
+		}
+
+		section { 
+			margin: 5em auto;
+			padding: 0 20vw;
+			max-width: 1200px;
+		}
+
+		section figure {
+			margin: 2.5rem auto;
+			width: 100%;
+		}
+
+		section figure img { 
+			border-radius: 3px;
+			width: 100%; 
+		}		
 		section { 
 			padding: 0;
 			max-width: 100%;

@@ -59,7 +59,7 @@ website: 	http://warm.design
 
 	p { margin-bottom: 2.5rem; }
 
-	dl dt { font: 600 1.25rem/1.65rem sans-serif; }
+	dl dt { font: 600 1.15rem/1.65rem sans-serif; }
 
 	dl dd { 
 		margin-bottom: 2rem;
@@ -90,14 +90,24 @@ website: 	http://warm.design
 	}
 
 	button {
+		background: #fff;
+		border: 2px solid #111;
+		border-radius: 2rem;
+		color: #111;
+		font: 400 1rem/1rem sans-serif; 
+		text-align: center;
+		padding: .5rem 0;
+	}
+
+	button.form {
 		background: #111;
+		border: 2px solid #111;
 		border-radius: 2rem;
 		color: #fff;
 		font: 400 1rem/1rem sans-serif; 
 		text-align: center;
 		padding: .5rem 0;
 	}
-
 	button a { text-decoration: none }
 
 	footer {

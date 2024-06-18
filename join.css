@@ -52,16 +52,12 @@ website: 	http://warm.design
 
 	h3 { font: 300 1.5rem/2.5rem serif; }
 
-	h4 { font: 300 1.5rem/2.5rem serif; }
-
-	h4 { font: 300 1.5rem/2.5rem serif; }
-
-	p, ul li, dl dt, dl dd { font: 300 1rem/1.65rem sans-serif; }	
+	p, dl dt, dl dd { font: 300 1rem/1.65rem sans-serif; }	
 
 	dl dt { font-weight: bold; }
 
-	dl dd { padding-left: 10% }
-	
+	dl dd { padding-left: 2.5rem }
+
 	a, a:visited { color: inherit; }
 
 	a:hover { color: #faf5f2; }

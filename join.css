@@ -78,8 +78,8 @@ website: 	http://warm.design
 
 	div.ctas {
 		display: grid;
-	    grid-template-columns: 30% 30% 30%;
-	    grid-gap: 5%;
+	    grid-template-columns: 22% 22% 22% 22%;
+	    grid-gap: 4%;
 	    margin-top: 5rem;
 	}
 

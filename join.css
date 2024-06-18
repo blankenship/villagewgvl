@@ -55,12 +55,12 @@ website: 	http://warm.design
 		margin-bottom: 2rem;
 	}
 
-	p, dl dt, dl dd, ul li { font: 400 1.05rem/1.56rem "ff-tisa-web-pro", serif; }	
+	p, dl dt, dl dd, ul li { font: 400 1.1rem/1.75rem "ff-tisa-web-pro", serif; }	
 
-	p { margin-bottom: 1.65rem; }
+	p { margin-bottom: 1.75rem; }
 
 	dl dt { 
-		font: 600 1.25rem/2rem "franklin-gothic-compressed", sans-serif; 
+		font: 600 1.5rem/3rem "franklin-gothic-compressed", sans-serif; 
 		text-transform: uppercase;
 	}
 
@@ -92,7 +92,7 @@ website: 	http://warm.design
 	}
 
 	section figure img { width: 100%; }
-	
+
 	div.ctas {
 		display: grid;
 	    grid-template-columns: 22% 22% 22% 22%;

@@ -59,7 +59,10 @@ website: 	http://warm.design
 
 	p { margin-bottom: 1.65rem; }
 
-	dl dt { font: 600 1.15rem/1.65rem sans-serif; }
+	dl dt { 
+		font: 600 1.15rem/1.65rem sans-serif; 
+		text-transform: uppercase;
+	}
 
 	dl dd { 
 		margin-bottom: 2rem;

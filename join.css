@@ -46,7 +46,7 @@ website: 	http://warm.design
 	}
 
 	h2 { 
-		font: 400 2rem/2rem "franklin-gothic-urw", sans-serif; 
+		font: 400 1.75rem/1.75rem "franklin-gothic-urw", sans-serif; 
 		margin-bottom: 2.5rem;
 	}
 
@@ -60,7 +60,7 @@ website: 	http://warm.design
 	p { margin-bottom: 1.65rem; }
 
 	dl dt { 
-		font: 600 1.15rem/1.65rem sans-serif; 
+		font: 600 1.15rem/1.65rem "franklin-gothic-compressed", sans-serif; 
 		text-transform: uppercase;
 	}
 

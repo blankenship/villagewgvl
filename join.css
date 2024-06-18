@@ -35,7 +35,7 @@ website: 	http://warm.design
 		background-color: #fff;
 		color: #111;
 		margin: 0 auto;
-		padding: 5vw 20vw;
+		padding-top: 5vw;
 	}
 
 /* TYPOGRAPHY */
@@ -81,7 +81,7 @@ website: 	http://warm.design
 
 	section { 
 		margin: 5em auto;
-		padding: 0; 
+		padding: 0 20vw;
 		max-wdith: 1200px;
 	}
 

@@ -1,0 +1,216 @@
+/* 
+
+Styles:		Join the Village Association
+
+origin: 	0.1 — 05/17/24
+version: 	1.0 — 06/18/24
+author: 	Joshua Blankenship
+email: 		joshua@warm.design
+website: 	http://warm.design
+
+*/
+
+/* FOUNDATION */
+
+	*, html, body, div, span, object, iframe,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, samp,
+	small, strike, strong, sub, sup, tt, var,
+	dl, dt, dd, ol, ul, li, img, figure, figcaption,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td {
+		box-sizing: border-box;
+		font-smoothing: antialiased;
+		margin: 0;
+		padding: 0;
+		outline: none;
+		}
+
+	html { font-size: 16px; }
+	@media(min-width:700px) 	{ html { font-size: 16px } }
+	@media(min-width:1200px) 	{ html { font-size: 17px } }
+	@media(min-width:1400px) 	{ html { font-size: 18px } }
+
+	body {
+		background-color: #fff;
+		color: #111;
+		margin: 0 auto;
+		padding: 0;
+	}
+
+/* TYPOGRAPHY */
+
+	h1 {
+		font: 500 5rem/5rem sans-serif; 
+		margin-bottom: 5rem;		
+	}
+
+	h2 { 
+		font: 500 2.5rem/3.25rem sans-serif; 
+		margin-bottom: 3.25rem;
+	}
+
+	h3 { font: 300 1.5rem/2.5rem serif; }
+
+	h4 { font: 300 1.5rem/2.5rem serif; }
+
+	h4 { font: 300 1.5rem/2.5rem serif; }
+
+	p, ul li { font: 300 1rem/1.65rem sans-serif; }	
+
+	a, a:visited { color: inherit; }
+
+	a:hover { color: #faf5f2; }
+
+
+/* FRONT OFFICE */
+
+	section { padding: 0 10%; }
+
+	footer {
+		background: #0C0B0A;
+		color: #ffb07b;
+	    margin: 0 auto;
+	   	padding: 5rem 0;
+	}
+
+	footer section { 
+		display: grid;
+	    grid-template-columns: 40vw 40vw;
+	    padding: 0 10vw; 
+	}
+
+	footer figure {
+		margin: 0 auto;
+		padding: 0 0 5rem;
+		width: 50vw;
+	}
+
+	footer figure img { width: 100%;}
+
+	footer ul { 
+		list-style-type: none; 
+		text-align: right;
+	}
+
+	footer ul li { 
+		display: inline-block;
+		margin-left: 2.5rem; 
+		line-height: 5rem;
+	}
+
+	footer p {
+		line-height: 5rem;
+	}
+
+	footer p, a {
+		color: #ffb07b;
+	}
+
+	footer p a { 
+		border: 2px solid #ffb07b; 
+		border-radius: 2.5rem;
+		display: inline-block;
+		line-height: 2.5rem;
+		margin-left: 1.5rem;
+		padding: 0 1.5rem;
+	}
+
+	footer p a:hover { 
+		border: 2px solid #faf5f2; 
+	}
+
+	footer section p:last-of-type  { 
+		text-align: right;
+	}
+
+	.legal {
+		font-variant: small-caps;
+	}
+
+
+/* AAA BALL */
+
+	@media (min-width: 100px) and (max-width: 900px) {
+
+		h2 { 
+			font: 500 1.75rem/2.25rem Mint-Book-Medium, serif; 
+			font-feature-settings: 'ss01';
+		}
+
+		h3 { font: 300 1.25rem/2.25rem NovelProRegular, serif; }
+
+		h3.slowpitch { padding-right: 0; }
+
+		h4 { font: 600 1rem/1.5rem NovelSansBold, sans-serif; }
+		p { font: 300 1rem/1.5rem NovelSansProRegular, sans-serif; }	
+
+
+		.thebigunit { 
+		    margin: 0 auto 4rem;
+			width: 100%;
+		}
+
+		.fanmail { padding: 1.5rem; }
+
+		.fanmail p {
+			font: 400 1rem/1.75rem NovelSansProRegular, san-serif; 
+			margin-bottom: 1.75rem;
+		}
+
+		.bobbleheads { display: block; }
+		
+		.bobbleheads figure img { 
+		  	margin: 0 10% 2.5rem;
+			width: 80%; 
+		}
+
+		footer { padding: 0; }
+
+		footer h1 {
+			background: url(@images/warmlogo.svg) no-repeat center center;
+		}
+
+		footer section { 
+			display: block;
+			text-align: center;
+		    padding: 2.5rem 5vw; 
+		}
+
+		footer figure {
+			padding: 0;
+			width: 80vw;
+		}
+
+		footer figure img { width: 100%;}
+
+		footer ul { 
+			list-style-type: none; 
+			text-align: center;
+		}
+
+		footer ul li { 
+			display: inline-block;
+			margin: 0 .75rem; 
+			line-height: 2.5rem;
+		}
+
+		footer p { line-height: 2.5rem; }
+
+		footer p span { display: block; }
+
+		footer p a { 
+			border: 2px solid #ffb07b; 
+			border-radius: 2.5rem;
+			display: inline-block;
+			line-height: 2.5rem;
+			margin: .75rem auto 0;
+			padding: 0 1.5rem;
+		}
+	
+		footer section p:last-of-type  { 
+			margin-top: 2.5rem;
+			text-align: center;
+		}
+
+	}

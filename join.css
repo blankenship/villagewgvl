@@ -47,6 +47,7 @@ website: 	http://warm.design
 	}
 
 	h2 { 
+		color: #99cc66;
 		font: 400 1.5rem/1.55rem "franklin-gothic-urw", sans-serif; 
 		margin-bottom: 2.5rem;
 	}
@@ -58,7 +59,8 @@ website: 	http://warm.design
 	}
 
 	h4 { 
-		font: 300 2rem/2rem "franklin-gothic-compressed", sans-serif; 
+		color: #777;
+		font: 300 1.5rem/2rem "franklin-gothic-compressed", sans-serif; 
 		margin-bottom: 2rem;
 	}
 
@@ -114,23 +116,24 @@ website: 	http://warm.design
 
 	button {
 		background: #fff;
-		border: 2px solid #111;
+		border: 2px solid #241f5d;
 		border-radius: 2rem;
-		color: #111;
-		font: 400 1rem/1rem sans-serif; 
+		color: #241f5d;
+		font: 400 .9rem/.9rem "franklin-gothic-urw", sans-serif; 
 		text-align: center;
 		padding: .5rem 0;
 	}
 
 	button.form {
-		background: #111;
-		border: 2px solid #111;
+		background: #241f5d;
+		border: 2px solid #241f5d;
 		border-radius: 2rem;
 		color: #fff;
 		font: 400 1rem/1rem sans-serif; 
 		text-align: center;
 		padding: .5rem 0;
 	}
+
 	button a { text-decoration: none }
 
 	footer {

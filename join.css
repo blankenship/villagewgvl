@@ -41,21 +41,21 @@ website: 	http://warm.design
 /* TYPOGRAPHY */
 
 	h1 {
-		font: 500 3.5rem/3.5rem sans-serif; 
+		font: 600 3.5rem/3.5rem "franklin-gothic-compressed", sans-serif; 
 		margin-bottom: 2.5rem;		
 	}
 
 	h2 { 
-		font: 500 2rem/2rem sans-serif; 
+		font: 400 2rem/2rem "franklin-gothic-urw", sans-serif; 
 		margin-bottom: 2.5rem;
 	}
 
 	h3 { 
-		font: 900 1.55rem/2rem sans-serif; 
+		font: 700 1.55rem/2rem "franklin-gothic-urw", sans-serif; 
 		margin-bottom: 2rem;
 	}
 
-	p, dl dt, dl dd, ul li { font: 300 1rem/1.65rem sans-serif; }	
+	p, dl dt, dl dd, ul li { font: 400 1rem/1.65rem "ff-tisa-web-pro", serif; }	
 
 	p { margin-bottom: 1.65rem; }
 

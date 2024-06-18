@@ -144,22 +144,6 @@ website: 	http://warm.design
 		margin-bottom: 0;
 	}
 
-	.hidden { display: none; }
-
-	.social { margin: 60px auto; }
-
-	.social a {
-		color: #fff;
-		font-size: 150%;
-		margin: 0 15px;
-	}
-
-	.social a:nth-child(1) 	{ color: #97cc68; }
-	.social a:nth-child(2) 	{ color: #2bbcee; }
-	.social a:nth-child(3) 	{ color: #f7b84e; }
-	.social a:hover 		{ color: #fff; }
-
-
 /* Small Screens */
 
 	@media (min-width: 100px) and (max-width: 900px) {

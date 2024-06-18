@@ -35,7 +35,7 @@ website: 	http://warm.design
 		background-color: #fff;
 		color: #111;
 		margin: 0 auto;
-		padding: 0;
+		padding: 20vw;
 	}
 
 /* TYPOGRAPHY */
@@ -56,16 +56,30 @@ website: 	http://warm.design
 
 	h4 { font: 300 1.5rem/2.5rem serif; }
 
-	p, ul li { font: 300 1rem/1.65rem sans-serif; }	
+	p, ul li, dl dt, dl dd { font: 300 1rem/1.65rem sans-serif; }	
 
+	dl dt { font-weight: bold; }
+
+	dl dd { padding-left: 10% }
+	
 	a, a:visited { color: inherit; }
 
 	a:hover { color: #faf5f2; }
 
+	dl { margin: 1.65rem auto; }
 
 /* FRONT OFFICE */
 
-	section { padding: 0 10%; }
+	section { 
+		margin: 5em auto;
+		padding: 0; 
+	}
+
+	div.ctas {
+		display: grid;
+	    grid-template-columns: 30% 30% 30%;
+	    grid-gap: 5%;
+	}
 
 	footer {
 		background: #0C0B0A;

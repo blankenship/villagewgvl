@@ -60,7 +60,7 @@ website: 	http://warm.design
 	p { margin-bottom: 1.65rem; }
 
 	dl dt { 
-		font: 600 1.25rem/1.65rem "franklin-gothic-compressed", sans-serif; 
+		font: 600 1.25rem/2rem "franklin-gothic-compressed", sans-serif; 
 		text-transform: uppercase;
 	}
 
@@ -70,7 +70,7 @@ website: 	http://warm.design
 
 	a, a:visited { color: inherit; }
 
-	a:hover { color: springgreen; }
+	a:hover { color: #777; }
 
 	dl { margin: 1.65rem auto; }
 
@@ -114,149 +114,22 @@ website: 	http://warm.design
 	button a { text-decoration: none }
 
 	footer {
-		background: #0C0B0A;
-		color: #ffb07b;
-	    margin: 0 auto;
-	   	padding: 5rem 0;
-	}
-
-	footer section { 
 		display: grid;
-	    grid-template-columns: 40vw 40vw;
-	    padding: 0 10vw; 
-	}
-
-	footer figure {
-		margin: 0 auto;
-		padding: 0 0 5rem;
-		width: 50vw;
-	}
-
-	footer figure img { width: 100%;}
-
-	footer ul { 
-		list-style-type: none; 
-		text-align: right;
-	}
-
-	footer ul li { 
-		display: inline-block;
-		margin-left: 2.5rem; 
-		line-height: 5rem;
-	}
-
-	footer p {
-		line-height: 5rem;
-	}
-
-	footer p, a {
-		color: #ffb07b;
-	}
-
-	footer p a { 
-		border: 2px solid #ffb07b; 
-		border-radius: 2.5rem;
-		display: inline-block;
-		line-height: 2.5rem;
-		margin-left: 1.5rem;
-		padding: 0 1.5rem;
-	}
-
-	footer p a:hover { 
-		border: 2px solid #faf5f2; 
-	}
-
-	footer section p:last-of-type  { 
-		text-align: right;
-	}
-
-	.legal {
-		font-variant: small-caps;
+	    grid-template-columns: 50% 50%;
+	    margin-top: 2.5rem;
+	    padding: 2rem 0;
 	}
 
 
-/* AAA BALL */
+
+
+/* Small Screens */
 
 	@media (min-width: 100px) and (max-width: 900px) {
 
-		h2 { 
-			font: 500 1.75rem/2.25rem Mint-Book-Medium, serif; 
-			font-feature-settings: 'ss01';
-		}
+	body {
+		padding: 3vw 6vw;
+	}
 
-		h3 { font: 300 1.25rem/2.25rem NovelProRegular, serif; }
-
-		h3.slowpitch { padding-right: 0; }
-
-		h4 { font: 600 1rem/1.5rem NovelSansBold, sans-serif; }
-		p { font: 300 1rem/1.5rem NovelSansProRegular, sans-serif; }	
-
-
-		.thebigunit { 
-		    margin: 0 auto 4rem;
-			width: 100%;
-		}
-
-		.fanmail { padding: 1.5rem; }
-
-		.fanmail p {
-			font: 400 1rem/1.75rem NovelSansProRegular, san-serif; 
-			margin-bottom: 1.75rem;
-		}
-
-		.bobbleheads { display: block; }
-		
-		.bobbleheads figure img { 
-		  	margin: 0 10% 2.5rem;
-			width: 80%; 
-		}
-
-		footer { padding: 0; }
-
-		footer h1 {
-			background: url(@images/warmlogo.svg) no-repeat center center;
-		}
-
-		footer section { 
-			display: block;
-			text-align: center;
-		    padding: 2.5rem 5vw; 
-		}
-
-		footer figure {
-			padding: 0;
-			width: 80vw;
-		}
-
-		footer figure img { width: 100%;}
-
-		footer ul { 
-			list-style-type: none; 
-			text-align: center;
-		}
-
-		footer ul li { 
-			display: inline-block;
-			margin: 0 .75rem; 
-			line-height: 2.5rem;
-		}
-
-		footer p { line-height: 2.5rem; }
-
-		footer p span { display: block; }
-
-		footer p a { 
-			border: 2px solid #ffb07b; 
-			border-radius: 2.5rem;
-			display: inline-block;
-			line-height: 2.5rem;
-			margin: .75rem auto 0;
-			padding: 0 1.5rem;
-		}
-	
-		footer section p:last-of-type  { 
-			margin-top: 2.5rem;
-			text-align: center;
-		}
 
 	}

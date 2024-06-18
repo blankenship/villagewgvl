@@ -139,6 +139,7 @@ website: 	http://warm.design
 	    padding: 2rem 20vw;
 	}
 
+.hidden { display: none; }
 
 .social { margin: 60px auto; }
 

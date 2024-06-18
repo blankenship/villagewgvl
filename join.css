@@ -91,6 +91,8 @@ website: 	http://warm.design
 		width: 100%;
 	}
 
+	section figure img { width: 100%; }
+	
 	div.ctas {
 		display: grid;
 	    grid-template-columns: 22% 22% 22% 22%;

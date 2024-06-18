@@ -139,7 +139,10 @@ website: 	http://warm.design
 	    padding: 2rem 20vw;
 	}
 
-	footer p { color: #fff; }
+	footer p { 
+		color: #fff; 
+		margin-bottom: 0;
+	}
 
 	.hidden { display: none; }
 

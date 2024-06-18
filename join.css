@@ -41,13 +41,13 @@ website: 	http://warm.design
 /* TYPOGRAPHY */
 
 	h1 {
-		color: #fcb944;
-		font: 600 3.5rem/3.5rem "franklin-gothic-compressed", sans-serif; 
+		color: #007b57;
+		font: 600 3.75rem/3.75rem "franklin-gothic-compressed", sans-serif; 
 		margin-bottom: 1.5rem;
 	}
 
 	h2 { 
-		font: 400 1.75rem/1.75rem "franklin-gothic-urw", sans-serif; 
+		font: 400 1.5rem/1.55rem "franklin-gothic-urw", sans-serif; 
 		margin-bottom: 2.5rem;
 	}
 
@@ -57,7 +57,10 @@ website: 	http://warm.design
 		margin-bottom: 2rem;
 	}
 
-	p, dl dt, dl dd, ul li { font: 400 1.1rem/1.75rem "ff-tisa-web-pro", serif; }	
+	p, dl dt, dl dd, ul li { 
+		color: #222;
+		font: 400 1.15rem/1.75rem "ff-tisa-web-pro", serif; 
+	}	
 
 	p { margin-bottom: 1.75rem; }
 
@@ -133,7 +136,7 @@ website: 	http://warm.design
 		display: grid;
 	    grid-template-columns: 50% 50%;
 	    margin-top: 2.5rem;
-	    padding: 2rem 0;
+	    padding: 2rem 20vw;
 	}
 
 

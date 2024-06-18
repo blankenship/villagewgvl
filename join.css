@@ -41,7 +41,7 @@ website: 	http://warm.design
 /* TYPOGRAPHY */
 
 	h1 {
-		font: 500 4rem/4rem sans-serif; 
+		font: 500 3.5rem/3.5rem sans-serif; 
 		margin-bottom: 2.5rem;		
 	}
 
@@ -51,11 +51,11 @@ website: 	http://warm.design
 	}
 
 	h3 { 
-		font: 900 1.5rem/2.5rem sans-serif; 
-		margin-bottom: 2.5rem;
+		font: 900 1.55rem/2rem sans-serif; 
+		margin-bottom: 2rem;
 	}
 
-	p, dl dt, dl dd { font: 300 1rem/1.65rem sans-serif; }	
+	p, dl dt, dl dd, ul li { font: 300 1rem/1.65rem sans-serif; }	
 
 	dl dt { font-weight: bold; }
 
@@ -68,6 +68,11 @@ website: 	http://warm.design
 	a:hover { color: #faf5f2; }
 
 	dl { margin: 1.65rem auto; }
+
+	ul li { 
+		margin: 0 0 1.65rem; 
+		padding-left: 2.5rem;
+	}
 
 /* FRONT OFFICE */
 
@@ -88,7 +93,7 @@ website: 	http://warm.design
 		border: 2px solid #777;
 		border-radius: 1rem;
 		color: #fff;
-		font: 400 1rem/2rem sans-serif; 
+		font: 400 1rem/1rem sans-serif; 
 		text-align: center;
 		padding: .5rem 0;
 	}

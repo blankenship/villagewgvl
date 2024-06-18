@@ -114,6 +114,8 @@ website: 	http://warm.design
 	button a { text-decoration: none }
 
 	footer {
+		background: #111;
+		color: #eee;
 		display: grid;
 	    grid-template-columns: 50% 50%;
 	    margin-top: 2.5rem;

@@ -86,12 +86,14 @@ website: 	http://warm.design
 	button {
 		background: #111;
 		border: 2px solid #777;
-		border-radius: 1.25rem;
+		border-radius: 1rem;
 		color: #fff;
-		font: 900 1.25rem/2.5rem sans-serif; 
+		font: 400 1rem/2rem sans-serif; 
 		text-align: center;
-		padding: .5rem;
+		padding: .5rem 0;
 	}
+
+	button a { text-decoration: none }
 
 	footer {
 		background: #0C0B0A;

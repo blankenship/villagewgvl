@@ -56,6 +56,8 @@ website: 	http://warm.design
 	}
 
 	p, dl dt, dl dd, ul li { font: 300 1rem/1.65rem sans-serif; }	
+	
+	p { margin-bottom: 1.65rem; }
 
 	dl dt { font-weight: bold; }
 

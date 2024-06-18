@@ -139,6 +139,7 @@ website: 	http://warm.design
 
 	footer p { 
 		color: #fff; 
+		font: 400 1rem/1.5rem "franklin-gothic-urw", sans-serif; 
 		margin-bottom: 0;
 	}
 

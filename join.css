@@ -43,6 +43,7 @@ website: 	http://warm.design
 	h1 {
 		color: #fcb944;
 		font: 600 3.5rem/3.5rem "franklin-gothic-compressed", sans-serif; 
+		margin-bottom: 1.5rem;
 	}
 
 	h2 { 

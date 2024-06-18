@@ -51,7 +51,7 @@ website: 	http://warm.design
 	}
 
 	h3 { 
-		font: 600 1.55rem/2rem "franklin-gothic-compressed", sans-serif; 
+		font: 300 1.75rem/2rem "franklin-gothic-compressed", sans-serif; 
 		margin-bottom: 2rem;
 	}
 
@@ -60,13 +60,13 @@ website: 	http://warm.design
 	p { margin-bottom: 1.65rem; }
 
 	dl dt { 
-		font: 600 1.15rem/1.65rem "franklin-gothic-compressed", sans-serif; 
+		font: 600 1.25rem/1.65rem "franklin-gothic-compressed", sans-serif; 
 		text-transform: uppercase;
 	}
 
 	dl dd { 
 		margin-bottom: 2rem;
-		padding-left: 2.5rem }
+		padding-left: 2em }
 
 	a, a:visited { color: inherit; }
 

@@ -41,6 +41,7 @@ website: 	http://warm.design
 /* TYPOGRAPHY */
 
 	h1 {
+		color: #fcb944;
 		font: 600 3.5rem/3.5rem "franklin-gothic-compressed", sans-serif; 
 	}
 
@@ -50,7 +51,8 @@ website: 	http://warm.design
 	}
 
 	h3 { 
-		font: 300 1.75rem/2rem "franklin-gothic-compressed", sans-serif; 
+		color: #007b57;
+		font: 300 2rem/2rem "franklin-gothic-compressed", sans-serif; 
 		margin-bottom: 2rem;
 	}
 
@@ -59,7 +61,8 @@ website: 	http://warm.design
 	p { margin-bottom: 1.75rem; }
 
 	dl dt { 
-		font: 600 1.5rem/3rem "franklin-gothic-compressed", sans-serif; 
+		color: #99cc66;
+		font: 600 1.4rem/3rem "franklin-gothic-compressed", sans-serif; 
 		text-transform: uppercase;
 	}
 
@@ -133,6 +136,18 @@ website: 	http://warm.design
 	}
 
 
+.social { margin: 60px auto; }
+
+.social a {
+	color: #fff;
+	font-size: 150%;
+	margin: 0 15px;
+}
+
+.social a:nth-child(1) 	{ color: #97cc68; }
+.social a:nth-child(2) 	{ color: #2bbcee; }
+.social a:nth-child(3) 	{ color: #f7b84e; }
+.social a:hover 		{ color: #fff; }
 
 
 /* Small Screens */
